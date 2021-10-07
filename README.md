@@ -3,11 +3,13 @@
 ![](https://img.shields.io/badge/%20-hacktoberfest%20-orange)
 
 
-Repo for Hacktoberfest 2021. Fork , Clone and make a Pull Request.
+Repo for Hacktoberfest 2021, It collects the user's name and a portfolio link. Fork , Clone and make a Pull Request.
+
 
 ## Contributions
 
-Any contribution that can make the code cleaner or the site prettier
+Any contribution that can make the code cleaner or the site prettier.
+You can add your name and portfolio link in `App.vue`'s `userData` list as an object.
 
 
 ## Preview

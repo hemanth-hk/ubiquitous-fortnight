@@ -1,28 +1,36 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+
+    <table>
+  <tr>
+    <th>Name</th>
+    <th>Portfolio Link</th>
+  </tr>
+  <tr v-for="(u, idx) in userData" :key="idx">
+    <td>{{ u.name }}</td>
+    <td><a :href="u.url" target="blank">{{ u.url }}</a></td>
+  </tr>
+</table>
+
   </div>
+    
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
+  data () {
+    return {
+      userData: [{
+        name : "Hemanth Kumar",
+        url : "https://github.com/hemanth-hk"
+      }]
+    }
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
