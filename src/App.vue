@@ -1,5 +1,5 @@
 <style>
-  @import '../public/style.css';
+@import "../public/style.css";
 </style>
 <template>
   <div>
