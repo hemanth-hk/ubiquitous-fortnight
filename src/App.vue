@@ -4,6 +4,9 @@
 <template>
   <div>
     <table>
+      <caption>
+        Contributor's List
+      </caption>
       <tr>
         <th>Name</th>
         <th>Portfolio Link</th>

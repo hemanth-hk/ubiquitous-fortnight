@@ -1,4 +1,11 @@
 /*  styling of table elements */
+caption {
+    font-family: 'Rock Salt', cursive;
+    font-weight: 500;
+    font-size: large;
+    color: #04aa6d;
+}
+
 table {
   table-layout: fixed;
   width: 80%;
