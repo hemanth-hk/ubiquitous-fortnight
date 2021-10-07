@@ -13,7 +13,9 @@ You can add your name and portfolio link in `App.vue`'s `userData` list as an ob
 
 
 ## Preview
+https://unruffled-blackwell-ee2da2.netlify.app/
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1facfe68-c5c2-4a1d-ab49-d95f89676dbf/deploy-status)](https://app.netlify.com/sites/unruffled-blackwell-ee2da2/deploys)
 
 ## Project setup
 ```
