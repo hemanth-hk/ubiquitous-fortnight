@@ -15,11 +15,11 @@
         </td>
       </tr>
     </table>
-    <tr v-for="(gituser, idx) in userData" :key="idx" class="row">
+    <div v-for="(gituser, idx) in userData" :key="idx" class="row">
       <github-card
       :username="gituser.username">
       </github-card>
-    </tr>
+    </div>
   </div>
 </template>
 
@@ -58,4 +58,9 @@ export default {
 
 <style>
 @import "../public/style.css";
+.row{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
 </style>
