@@ -10,6 +10,7 @@ Repo for Hacktoberfest 2021, It collects the user's name and a portfolio link. F
 
 Any contribution that can make the code cleaner or the site prettier.
 You can add your name and portfolio link in `App.vue`'s `userData` list as an object.
+Any
 
 
 ## Preview
