@@ -35,6 +35,10 @@ export default {
           name: "Samar Pratap Singh",
           url: "https://github.com/samar-1601",
         },
+        {
+          name: "Kunal Katiyar",
+          url: "https://github.com/KunalKatiyar"
+        }
       ],
     };
   },
