@@ -1,4 +1,4 @@
-# ubiquitous-fortnight
+# Ubiquitous-Fortnight
 
 ![](https://img.shields.io/badge/%20-hacktoberfest%20-orange)
 
