@@ -8,9 +8,6 @@
        <div class="meta">
          <span class="date">Joined in {{user.created_at}}</span>
        </div>
-       <div class="description">
-         {{user.bio}}
-       </div>
      </div>
      <div class="extra content">
        <a :href="`https://github.com/${username}?tab=followers`">
@@ -39,8 +36,7 @@ export default {
         };
     },
     async created() {
-      console.log(this.username)
-       const response = await axios.get(`https://api.github.com/users/KunalKatiyar`);
+       const response = await axios.get(`https://api.github.com/users/${this.username}`);
        this.user = response.data;
        this.user.created_at=moment(String(this.user.created_at)).format('MM/DD/YYYY hh:mm')
     }
