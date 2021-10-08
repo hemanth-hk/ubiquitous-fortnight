@@ -12,6 +12,8 @@ Any contribution that can make the code cleaner or the site prettier.
 You can add your name and portfolio link in `App.vue`'s `userData` list as an object.
 
 
+is
+
 ## Preview
 https://unruffled-blackwell-ee2da2.netlify.app/
 
