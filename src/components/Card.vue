@@ -12,7 +12,7 @@
      <div class="extra content">
        <a :href="`https://github.com/${username}?tab=followers`">
          <i class="user icon"></i>
-         {{user.followers}} Followers
+         {{user.followers}} Followers!
        </a>
      </div>
    </div>
