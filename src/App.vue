@@ -49,6 +49,11 @@ export default {
           name: "Kunal Katiyar",
           url: "https://github.com/KunalKatiyar",
           username: "KunalKatiyar"
+        },
+        {
+          name: "Suramya Verma",
+          url: "https://github.com/suramyaverma",
+          username: "suramyaverma"
         }
       ],
     };
